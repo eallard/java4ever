@@ -23,7 +23,7 @@
     }
     function createMap(){ 
       map = new BMap.Map("map"); 
-      map.centerAndZoom(new BMap.Point(103.959109,30.635244),11);
+      map.centerAndZoom(new BMap.Point(115.966892,36.945773),11);
     }
     function setMapEvent(){
       map.enableScrollWheelZoom();
@@ -38,7 +38,7 @@
     }
     function addMapOverlay(){
       var markers = [
-        {content:"地址：中国.四川.崇州三江工业园区",title:"群赫木艺家具有限公司",imageOffset: {width:-46,height:-21},position:{lat:30.569596,lng:103.786634}}
+        {content:"地址：中国.四川.崇州三江工业园区",title:"群赫木艺家具有限公司",imageOffset: {width:-46,height:-21},position:{lat:36.945773,lng:115.966892}}
       ];
       for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
